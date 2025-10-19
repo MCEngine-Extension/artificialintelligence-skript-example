@@ -25,7 +25,7 @@ import java.util.List;
  * This class demonstrates how to wire up commands and listeners while integrating
  * with the {@link IMCEngineArtificialIntelligenceSkript} extension lifecycle.
  */
-public class ExampleArtificialIntelligenceSkript implements IMCEngineArtificialIntelligenceSkript {
+public class ExampleAISkript implements IMCEngineArtificialIntelligenceSkript {
 
     /** Custom extension logger for this module, with contextual labeling. */
     private MCEngineExtensionLogger logger;
